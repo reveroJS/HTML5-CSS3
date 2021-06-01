@@ -1,0 +1,55 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-left: 3px solid rgb(221, 221, 221);
+    padding: 20px;
+    font-style: italic;
+}
+
+blockquote span {
+    margin-left: 100%;
+}
+
+.table-conteiner {
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+}
+
+.table-head {
+    background: #CCCCCC;
+}
+
+.table-head tr th {
+    text-align: left;
+}
+
+.table-body tr {
+    cursor: pointer;
+}
+
+.table-body tr:nth-child(odd) {
+    background: rgb(241, 241, 241);
+}
+
+.table-body tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
