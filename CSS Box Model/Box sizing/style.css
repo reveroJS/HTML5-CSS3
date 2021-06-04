@@ -1,4 +1,10 @@
 html {
+    box-sizing: border-box;
+}
+
+*,
+*::backdrop,
+*::after {
     box-sizing: inherit;
 }
 
@@ -16,7 +22,7 @@ h1 {
 
 p {
     text-align: center;
-    width: 80%;
+    width: 100%;
     border: 5px solid #0936CA;
     padding: 20px;
 }
